@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html lang="en" class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="no-js ie ie9"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>EDUU</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/libs.js"></script>
+	<script src="js/start.js"></script>
+  </head>
+  <body>
+    <header class="header header-child"> 
+      <section class="inner">
+        <div class="logo"><a href="#" target="_blank"><img src="images/logo.png" alt="Eduu"></a></div>
+        <div class="head-mb">
+          <div class="mb-login"><a href="javascript:;" data-tgr=".main-menu.tablet-show" class="mb-menu tablet-show"><i class="fa fa-users"></i></a>
+            <div class="menu-login main-menu tablet-show">
+              <nav class="mn-menu mb_login">
+                <ul class="nav">
+                  <li><a href="#" title="Đăng ký học">Đăng ký học</a></li>
+                  <li><a href="#" title="Đăng ký dạy">Đăng ký dạy</a></li>
+                  <li data-lvl="level-1" class="has-child"><a href="#" title="Đăng nhập">Đăng nhập</a>
+                    <ul class="sub-menu level-1">
+                      <li>
+                        <div class="form_login">
+                          <form id="form-login" method="post" action="#">
+                            <h3>ĐĂNG NHẬP VÀO TÀI KHOẢN EDUU</h3>
+                            <input type="text" id="inp-email" placeholder="Email hoặc tên tài khoản" class="inp inp-txt">
+                            <input type="password" id="inp-pass" placeholder="Mật khẩu" class="inp inp-txt">
+                            <div class="form-bottom">
+                              <button type="submit" id="bt-submit" class="btn bnt-login">Đăng nhập</button>
+                              <div class="blk-social"><a href="#" title="facebook" class="facebook"></a><a href="#" title="google" class="google"></a>
+                                <p><a href="#" title="Quên mật khẩu">Quên mật khẩu</a></p>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="mb-menu"><a href="javascript:;" data-tgr=".main-menu.tablet-show" class="mb-menu tablet-show"> <i class="fa fa-th-list"></i></a>
+            <div class="main-menu tablet-show">
+              <div class="inner">
+                <nav class="mn-menu">
+                  <ul class="nav"> 
+                    <li data-lvl="level-1" class="has-child"><a href="#" title="Về eduu">Về eduu</a>
+                      <ul class="sub-menu level-1">
+                        <li><a href="#" title="Giới thiệu chung">Giới thiệu chung</a></li>
+                        <li><a href="#" title="Cách thức hoạt động">Cách thức hoạt động</a></li>
+                        <li><a href="#" title="Giới thiệu Eduu">Giới thiệu Eduu  </a></li>
+                      </ul>
+                    </li>
+                    <li data-lvl="level-1" class="has-child"><a href="#" title="Cho người học">Cho người học</a>
+                      <ul class="sub-menu level-1">
+                        <li><a href="#" title="Đăng nhu cầu học" class="color-1">Đăng nhu cầu học</a></li>
+                        <li><a href="#" title="Danh sách người dạy" class="color-2">Danh sách người dạy</a></li>
+                        <li><a href="#" title="Danh sách môn học" class="color-3">Danh sách môn học </a></li>
+                        <li><a href="#" title="Hướng dẫn cho người học" class="color-4">Hướng dẫn cho người học</a></li>
+                        <li><a href="#" title="Giới thiệu các môn học" class="color-5">Giới thiệu các môn học</a></li>
+                      </ul>
+                    </li>
+                    <li data-lvl="level-1" class="has-child"><a href="#" title="Cho người học">Cho người dạy</a>
+                      <ul class="sub-menu level-1">
+                        <li><a href="#" title="Nhu cầu học" class="color-1">Nhu cầu học</a></li>
+                        <li><a href="#" title="Hướng dẫn cho người dạy " class="color-2">Hướng dẫn cho người dạy </a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" title="Cho người học">Blog giáo dục</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-login main-menu pc-show">
+          <nav class="mn-menu menu-avatar">
+            <a href="#" class="avatar-block-1">
+              <img src="images/avatar.jpg" alt="avartar"/>
+              <span>Mai Anh</span>
+            </a>
+            <ul class="nav">
+              <li data-lvl="level-1"  class="has-child icon-1" ><a href="#" title="icon"></a>
+				<ul class="sub-menu sub-menu-2 level-1">
+                  <li>
+                    <div class="block_accept">
+						<h3 class="header-ac">Yêu cầu xác nhận</h3>
+						<div class="content_accept">
+							<ul>
+								<li>
+									<a href="#" title="avatar" class="avar"><img src="images/avatar.jpg"></a>
+									<a  href="#" class="delete-accept">Xóa yêu cầu</a>
+									<a href="#" class="accept">Chấp nhận</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+                  </li>
+                </ul>
+			  </li>
+              <li class="icon-2"><a href="#" title="icon">icon</a></li>
+              <li data-lvl="level-1" class="has-child icon-3" ><a href="#" title="icon">icon</a>
+				<ul class="sub-menu sub-menu-2 level-1">
+                  <li>
+                    <div class="block_accept">
+						<h3 class="header-ac">Thông báo
+							<a href="#" class="text">Đánh dấu đã đọc</a>
+						</h3>
+                    </div>
+					<div class="content_accept">
+						<a href="#" title="avatar" class="avar avar-1"><img src="images/avatar.jpg">
+						<p>Lê Vân đã nhắc đến bạn trong một bình luận</p>
+						</a>
+					</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-menu pc-show block-menu">
+          <div class="inner">
+            <nav class="mn-menu mn-menu-mb">
+              <ul class="nav">
+                <li data-lvl="level-1" class="has-child"><a href="#" title="Về eduu">Về eduu</a>
+                  <ul class="sub-menu level-1">
+                    <li><a href="#" title="Giới thiệu chung" class="color-1">Giới thiệu chung</a></li>
+                    <li><a href="#" title="Cách thức hoạt động" class="color-2">Cách thức hoạt động</a></li>
+                    <li><a href="#" title="Giới thiệu Eduu" class="color-3">Giới thiệu Eduu  </a></li>
+                  </ul>
+                </li>
+                <li data-lvl="level-1" class="has-child"><a href="#" title="Cho người học">Cho người học</a>
+                  <ul class="sub-menu level-1">
+                    <li><a href="#" title="Đăng nhu cầu học" class="color-1">Đăng nhu cầu học</a></li>
+                    <li><a href="#" title="Danh sách người dạy" class="color-2">Danh sách người dạy</a></li>
+                    <li><a href="#" title="Danh sách môn học" class="color-3">Danh sách môn học </a></li>
+                    <li><a href="#" title="Hướng dẫn cho người học" class="color-4">Hướng dẫn cho người học</a></li>
+                    <li><a href="#" title="Giới thiệu các môn học" class="color-5">Giới thiệu các môn học</a></li>
+                  </ul>
+                </li>
+                <li data-lvl="level-1" class="has-child"><a href="#" title="Cho người học">Cho người dạy</a>
+                  <ul class="sub-menu level-1">
+                    <li><a href="#" title="Nhu cầu học" class="color-1">Nhu cầu học</a></li>
+                    <li><a href="#" title="Hướng dẫn cho người dạy " class="color-2">Hướng dẫn cho người dạy </a></li>
+                  </ul>
+                </li>
+                <li><a href="#" title="Blog giáo dục">Blog giáo dục</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="main main-child">
+      <div class="inner">
+        <div class="sider-bar">
+          <div class="siderbar sidebar-search">
+			<h3 class="title-sidebar">
+				<span> Tìm kiếm giáo viên</span>
+			</h3>
+            <div class="form-subject">
+              <form>
+                <div class="name-group">
+                  <label for="inp_name">Môn học</label>
+                  <input type="text" class="form-control" id="inp_name">
+                </div>
+                <div class="check-group">
+                  <label>Địa điểm</label>
+                  <ul>
+                  <li>
+					<div class="group-check">
+						<span class="checkbox">
+							<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+							<label for="checkbox1" name="checkbox-1" class="css-label lrg vlad">Online</label>
+						</span>
+					</div>
+                  <li>
+					<div class="group-check">
+						<span class="checkbox">
+							<input type="checkbox" id="checkbox1" class="css-checkbox lrg checked"> 
+							<label for="checkbox1" name="checkbox-1" class="css-label lrg vlad">Theo địa chỉ</label>
+						</span>
+					</div>
+				  </li>
+                  <li>
+					<div class="group-check">
+						<span class="checkbox">
+							<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+							<label for="checkbox1" name="checkbox-1" class="css-label lrg vlad">Theo khu vực</label>
+						</span>
+					</div>
+				  </li>
+                  </ul>
+				  </div>
+				  <div class="high-search">
+					<div class="check-group">
+					  <label>Trình độ sư phạm</label>
+					  <ul>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">Sinh viên </label>
+							</span>
+						</div>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad"> GV chính quy </label>
+							</span>
+						</div>
+					  </li>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">GV khác</label>
+							</span>
+						</div>
+					  </li>
+					  </ul>
+				  </div>
+				  <div class="block-price">
+					<label>Giá theo giờ</label>
+					<div class="price-box">
+						<div class="price-bar">
+							<span class="price-star"></span>
+							<span class="price-bar-1"></span>
+							<span class="price-bar-2"></span>
+							<span class="price-last"></span>
+						</div>
+						<p>
+							<span>48$</span> to <span>129$</span></p>
+					</div>
+				  </div>
+				  <div class="block-price">
+					<label>Tuổi</label>
+					<div class="price-box">
+						<div class="price-bar">
+							<span class="price-star"></span>
+							<span class="price-bar-1"></span>
+							<span class="price-bar-2"></span>
+							<span class="price-last"></span>
+						</div>
+						<p>
+							<span>10</span> to <span>100</span></p>
+					</div>
+				  </div>
+				  <div class="block-sex">
+					<label>Giới tính</label>
+					<div class="sex-box">
+						<span class="nam">Nam</span>
+						<span class="nu">Nữ</span>
+					</div>
+				  </div>
+				  <div class="check-group check-g-quaty">
+					  <label>Số lượng có thể dạy</label>
+					  <ul>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox checked">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">Tất cả </label>
+							</span>
+						</div>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox checked">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">1 người </label>
+							</span>
+						</div>
+					  </li>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox checked">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">2-5 người</label>
+							</span>
+						</div>
+					  </li>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox checked">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">6-10 người</label>
+							</span>
+						</div>
+					  </li>
+					  <li>
+						<div class="group-check">
+							<span class="checkbox checked">
+								<input type="checkbox" id="checkbox1" class="css-checkbox lrg"> 
+								<label for="checkbox1" name="checkbox-2" class="css-label lrg vlad">11-15 người</label>
+							</span>
+						</div>
+					  </li>
+					  </ul>
+				  </div>
+				 </div>
+                <div class="btn_search">
+                  <button type="submit" class="btn btn-default"><span></span></button>
+                  <p>Tìm kiếm năng cao</p>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+       <div class="content content-child">
+          <h3>Tìm thấy 123 kết quả phù hợp</h3>
+          <ul>
+            <li>
+              <div class="info-name">
+                <div class="avatar">
+                  <a href="#" title="avatar"><img src="images/avatar.jpg"></a>
+                </div>
+                <div class="info-desc">
+                 <div class="title_block">
+                   <h3><a href="#" title="name">NGUYỄN TRẦN MAI ANH</a></h3>
+                   <span class="short_address">CMT8, Q3, TPHCM</span>
+                 </div>
+                  
+                  <div class="title_block1">
+                    <p><strong>Giảng viên trường đại học sư phạm TPHCM</strong></p>
+                    <p> I studied Latin in high school......</p>
+                  </div>
+                  
+                <div class="info-detail">
+                  <p>Môn:</p>
+                  <div class="tag-link">
+                    <a href="#" title="Toán tiểu học"> Toán tiểu học</a>
+                    <a href="#" title="Toán luyện thi ĐH"> Toán luyện thi ĐH</a>
+                  </div>
+                </div>
+                </div>
+                  <div class="info-other">
+                    <span class="star">7.3</span>
+                    <span class="distance">Gần tôi:0.7km</span> 
+                  </div>
+                </div>
+              
+            </li>
+            <li>
+              <div class="info-name">
+                <div class="avatar">
+                  <a href="#" title="avatar"><img src="images/avatar.jpg"></a>
+                </div>
+                <div class="info-desc">
+                <div class="title_block">
+                    <h3><a href="#" title="name">NGUYỄN TRẦN MAI ANH</a></h3>
+                    <span class="short_address">CMT8, Q3, TPHCM</span>
+                </div>
+                  <div class="title_block1">
+                    <p><strong>Giảng viên trường đại học sư phạm TPHCM</strong></p>
+                    <p> I studied Latin in high school......</p>
+                  </div>
+                  
+                  <div class="info-detail">
+                    <p>Môn:</p>
+                    <div class="tag-link">
+                      <a href="#" title="Toán tiểu học"> Toán tiểu học</a>
+                      <a href="#" title="Toán luyện thi ĐH"> Toán luyện thi ĐH</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-other">
+                  <span class="dollar">150k/giờ</span>
+                  <span class="star">7.3</span>
+                  <span class="distance">Gần tôi:0.7km</span>
+              </div>
+              </div>
+              
+            </li>
+            <li>
+              <div class="info-name">
+                <div class="avatar">
+                  <a href="#" title="avatar"><img src="images/avatar.jpg"></a>
+                </div>
+                <div class="info-desc">
+                <div class="title_block">
+                  <h3><a href="#" title="name">NGUYỄN TRẦN MAI ANH</a></h3>
+                  <span class="short_address">CMT8, Q3, TPHCM</span>
+                </div>
+                  <div class="title_block1">
+                    <p><strong>Giảng viên trường đại học sư phạm TPHCM</strong></p>
+                    <p> I studied Latin in high school......</p>
+                  </div>  
+                  <div class="info-detail">
+                    <p>Môn:</p>
+                  <div class="tag-link">
+                    <a href="#" title="Toán tiểu học"> Toán tiểu học</a>
+                    <a href="#" title="Toán luyện thi ĐH"> Toán luyện thi ĐH</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="info-other">
+                  <span class="dollar">150k/giờ</span>
+                  <span class="star">7.3</span>
+                  <span class="distance">Gần tôi:0.7km</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="info-name">
+                <div class="avatar">
+                  <a href="#" title="avatar"><img src="images/avatar.jpg"></a>
+                </div>
+                <div class="info-desc">
+                  <div class="title_block">
+                    <h3><a href="#" title="name">NGUYỄN TRẦN MAI ANH</a></h3>
+                    <span class="short_address">CMT8, Q3, TPHCM</span>
+                  </div>
+                  <div class="title_block1">
+                    <p><strong>Giảng viên trường đại học sư phạm TPHCM</strong></p>
+                    <p> I studied Latin in high school......</p>
+                  </div>
+                  
+                  <div class="info-detail">
+                    <p>Môn:</p>   
+                    <div class="tag-link">
+                      <a href="#" title="Toán tiểu học"> Toán tiểu học</a>
+                      <a href="#" title="Toán luyện thi ĐH"> Toán luyện thi ĐH</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-other">
+                  <span class="dollar">150k/giờ</span>
+                  <span class="star">7.3</span>
+                  <span class="distance">Gần tôi:0.7km</span>
+                </div>
+              </div>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    <section class="link-footer">
+      <div class="inner">
+        <div class="col col-1"><a href="#" title="Eduu"><img src="images/logo-footer.png" alt="Eduu"></a></div>
+        <div class="col col-2">
+          <h3>Về Eduu</h3>
+          <ul>
+            <li><a href="#" title="Giới thiệu chung">Giới thiệu chung</a></li>
+            <li><a href="#" title="Cách thức hoạt động">Cách thức hoạt động</a></li>
+            <li><a href="#" title="Giá trị eduu">Giá trị eduu</a></li>
+            <li><a href="#" title="Điều khoản">Điều khoản</a></li>
+          </ul>
+        </div>
+        <div class="col col-3">
+          <h3>Tài liệu</h3>
+          <ul>
+            <li><a href="#" title="Giới thiệu các môn học">Giới thiệu các môn học</a></li>
+            <li><a href="#" title="Hướng dẫn cho người học">Hướng dẫn cho người học</a></li>
+            <li><a href="#" title="Hướng dẫn cho người dạy">Hướng dẫn cho người dạy</a></li>
+            <li><a href="#" title="Để trở thành giáo viên giỏi">Để trở thành giáo viên giỏi</a></li>
+            <li><a href="#" title="Để tìm được giáo viên phù hợp">Để tìm được giáo viên phù hợp</a></li>
+            <li><a href="#" title="Blog giáo dục">Blog giáo dục</a></li>
+          </ul>
+        </div>
+        <div class="col col-4">
+          <h3>Kết nối với Eduu</h3>
+          <p>Mail:<a href="mailto:Support@eduu.vn">Support@eduu.vn</a></p>
+          <div class="blk-social"><a href="#" title="google" class="google"></a><a href="#" title="facebook" class="facebook"></a></div>
+        </div>
+      </div>
+    </section>
+    <div class="coppy-right">
+      <div class="inner">
+        <p> Design by Eduu KW</p>
+      </div>
+    </div>
+  </footer>
+	<div class="chat">
+		<div class="chat-header">
+			<h3>Mai Anh</h3>
+			<button type="button" class="icon-setting" ></button>
+			<button type="button" class="icon-close" ></button>
+		</div>
+		<div class="content-chat">
+			<ul>
+				<li class="me">
+					<img src="images/avatar.jpg">
+					<div>
+						<p>I studied Latin in high school and at Kenyon College before receiving a Master's in Classical Studies from Indiana University.</p>
+					</div>
+				</li>
+				<li class="you">
+					<p>I studied Latin in high school and at Kenyon College</p>
+				</li>
+			</ul>
+		</div>
+		<div class="comment">
+			<input type="text" class="form-control" id="inp_comment">
+			<button type="button" class="icon-camera"></button>
+			<button type="button" class="icon-icon"></button>
+		</div>
+	</div>
+	<script src="js/plugins.js"></script>
+</html>
